@@ -1,0 +1,5 @@
+# When enabled, this allows shorter env properties (ex -Dspring.profiles.active=mongodb)
+zipkin:
+  storage:
+    mongodb:
+      connection-string: ${MONGODB_CONNECTION_STRING:mongodb://localhost:27017/zipkin}
